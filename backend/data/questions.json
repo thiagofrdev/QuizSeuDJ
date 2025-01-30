@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "question": "Você usa que tipo de roupas?",
+    "options": [
+        "Gosto de usar roupas escuras/pretas, com pouca ou nenhuma estampa",
+        "Amo roupas coloridas, estampadas e com frases impactantes",
+        "Priorizo o conforto e a praticidade, então uso peças mais básicas e esportivas",
+        "Gosto de peças únicas e vintage, que contam uma história",
+        "Sigo as tendências da moda e adoro experimentar com diferentes estilos"
+    ]
+}
