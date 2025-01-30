@@ -6,5 +6,15 @@
     "routes": [
       { "src": "/api/questions", "dest": "/api/questions.js" },
       { "src": "/api/results", "dest": "/api/results.js" }
-    ]
-  }
+    ],
+    "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,PUT,DELETE,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" }
+      ]
+    }
+  ]
+}
